@@ -5,17 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
   <title>Working with GET</title>
 </head>
 
 <body>
-  <form>
+<form id="doggo-breed-form">
+  <label>How many dogs do you want to see?</label>
+  <input type='text' id="breed"/>
+  <section id='doggo-breed'></section>
+</form>
+
+  <form id="doggo-form">
     <label>How many dogs do you want to see?</label>
-    <input type='text' value='3' />
+    <input type='text' id="count" value='3' />
   </form>
   <section id='doggo-pics'></section>
 
-  <script type='text/javascript' src='src/main.js'></script>
+  <script type='text/javascript' src='./src/main.js'></script>
 </body>
 
 </html>
